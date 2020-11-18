@@ -1,0 +1,17 @@
+{
+  "name": "test-tracer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/logging-winston": "^4.0.1",
+    "@google-cloud/trace-agent": "^5.1.1",
+    "got": "^11.8.0",
+    "koa": "^2.13.0",
+    "winston": "^3.3.3"
+  }
+}
